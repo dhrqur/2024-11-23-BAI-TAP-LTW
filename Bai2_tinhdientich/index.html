@@ -14,14 +14,14 @@
         <p>HÌNH CHỮ NHẬT</p>
         <form>
             <label for="inputD">Nhập chiều dài hình chữ nhật:</label>
-            <input type="text" id="inputD" placeholder="Chiều dài"><br>
+            <input type="number" id="inputD" placeholder="Chiều dài"><br>
             <label for="inputR">Nhập chiều rộng hình chữ nhật:</label>
-            <input type="text" id="inputR" placeholder="Chiều rộng">
+            <input type="number" id="inputR" placeholder="Chiều rộng">
         </form>
             <!-- In ra diện tích hình chữ nhật -->
         <div>
             <label for="outputS">Diện tích hình chữ nhật:</label>
-            <input type="text" id="outputS" placeholder="Diện tích" readonly>
+            <input type="number" id="outputS" placeholder="Diện tích" readonly>
         </div>
         <div>
             <button type="button" onclick="calculateRectangleArea()">Tính diện tích</button>
@@ -34,15 +34,15 @@
         <p>HÌNH TAM GIÁC</p>
         <form>
             <label for="inputCD">Nhập cạnh đáy tam giác:</label>
-            <input type="text" id="inputCD" placeholder="Cạnh đáy"><br>
+            <input type="number" id="inputCD" placeholder="Cạnh đáy"><br>
             <label for="inputCC">Nhập chiều cao tam giác:</label>
-            <input type="text" id="inputCC" placeholder="Chiều cao">
+            <input type="number" id="inputCC" placeholder="Chiều cao">
         </form>
 
             <!-- In ra diện tích hình tam giác -->
         <div>
             <label for="outputTG">Diện tích hình tam giác:</label>
-            <input type="text" id="outputTG" placeholder="Diện tích" readonly>
+            <input type="number" id="outputTG" placeholder="Diện tích" readonly>
         </div>
         <div>
             <button type="button" onclick="calculateTriangleArea()">Tính diện tích</button>
@@ -55,12 +55,12 @@
         <p>HÌNH VUÔNG</p>
         <form>
             <label for="inputCHV">Nhập cạnh hình vuông:</label>
-            <input type="text" id="inputCHV" placeholder="Cạnh hình vuông"><br>
+            <input type="number" id="inputCHV" placeholder="Cạnh hình vuông"><br>
         </form>
     <!-- In ra diện tích hình vuông -->
         <div>
             <label for="outputHV">Diện tích hình vuông:</label>
-            <input type="text" id="outputHV" placeholder="Diện tích" readonly>
+            <input type="number" id="outputHV" placeholder="Diện tích" readonly>
         </div>
         <div>
             <button type="button" onclick="calculateSquareArea()">Tính diện tích</button>
