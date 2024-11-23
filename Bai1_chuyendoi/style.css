@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    display: inline-block;
+    text-align: left; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+#doC, #doF {
+    padding: 20px;
+}
+
+#doC input,
+#doF input {
+    font-size: 15px;
+    font-style: italic;
+    width: 70%;
+    padding: 5px;
+}
+span{
+    text-align: right;
+    margin: 0 0 0 30px;
+}
+button {
+    margin:20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #e71e2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
